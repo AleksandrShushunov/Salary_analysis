@@ -6,7 +6,7 @@ import seaborn as sns
 from PIL import Image
 
 st.title('Анализ зарплат в России за 2000-2023 годы')
-image = Image.open('img.jpg')
+image = Image.open('cover.jpg')
 st.image(image)
 
 zp = pd.read_csv('zarplata.csv', index_col=0)
