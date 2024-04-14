@@ -1,4 +1,13 @@
 # Salary_analysis
 Анализ роста зарплат в России за 2000-2023 годы
 
-https://salaryanalysis-57mmexzizdfxxf9jsixqzj.streamlit.app/
+Данные по зарплатам: https://rosstat.gov.ru/     
+Датасет содержит данные по среднемесячной зарплате в России по видам экономической деятельности начиная с 2000 года. Для проекта были выбраны 3 области     
+Данные по инфляции: https://уровень-инфляции.рф/
+
+Проведен анализ данных, построены графики роста номинальных зарплат, реальных зарплат с учетом инфляции, а также динамики изменения реальных зарплат по годам    
+Реализован веб-сервис с использованием фреймворка Streamlit
+
+[Jupyter Notebook с анализом данных](https://github.com/AleksandrShushunov/Salary_analysis/blob/main/Analysis.ipynb)
+
+[Веб-сервис на основе Streamlit](https://salaryanalysis-57mmexzizdfxxf9jsixqzj.streamlit.app/)
